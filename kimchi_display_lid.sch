@@ -52,8 +52,8 @@ $Comp
 L Memory_EEPROM:24LC16 U1
 U 1 1 5D8EE848
 P 1500 1550
-F 0 "U1" H 1500 2031 50  0000 C CNN
-F 1 "24C32" H 1500 1940 50  0000 C CNN
+F 0 "U1" H 1250 1800 50  0000 C CNN
+F 1 "24C32" H 1700 1800 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 1500 1550 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/80/4e/8c/54/f2/63/4c/4a/CD00001012.pdf/files/CD00001012.pdf/jcr:content/translations/en.CD00001012.pdf" H 1500 1550 50  0001 C CNN
 F 4 "ST" H 1500 1550 50  0001 C CNN "Mfgr"
@@ -66,7 +66,7 @@ Text Label 2100 1550 0    50   ~ 0
 I2C4_SCL
 Text Label 2100 1450 0    50   ~ 0
 I2C4_SDA
-Text Notes 1750 1250 0    50   ~ 0
+Text Notes 1100 2400 0    50   ~ 0
 7-bit addr: 0x57/0x5F
 Wire Wire Line
 	1050 1300 1050 1450
