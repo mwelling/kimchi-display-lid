@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:kimchi_ulid-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
