@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:kimchi_ulid-cache
+LIBS:kimchi_display_lid-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -695,6 +695,94 @@ F 1 "VDD_3V3" H 1065 1473 50  0000 C CNN
 F 2 "" H 1050 1300 50  0001 C CNN
 F 3 "" H 1050 1300 50  0001 C CNN
 	1    1050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5FD7395F
+P 14250 2200
+F 0 "H5" H 14350 2249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14350 2158 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 14350 2112 50  0001 L CNN
+F 3 "~" H 14250 2200 50  0001 C CNN
+	1    14250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5FD73966
+P 14250 2700
+F 0 "H6" H 14350 2749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14350 2658 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 14250 2700 50  0001 C CNN
+F 3 "~" H 14250 2700 50  0001 C CNN
+	1    14250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5FD7396D
+P 15350 2200
+F 0 "H7" H 15450 2249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15450 2158 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 15350 2200 50  0001 C CNN
+F 3 "~" H 15350 2200 50  0001 C CNN
+	1    15350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5FD73974
+P 15350 2700
+F 0 "H8" H 15450 2749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15450 2658 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 15350 2700 50  0001 C CNN
+F 3 "~" H 15350 2700 50  0001 C CNN
+	1    15350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5FD7397B
+P 14250 2300
+F 0 "#PWR01" H 14250 2050 50  0001 C CNN
+F 1 "GND" H 14255 2127 50  0000 C CNN
+F 2 "" H 14250 2300 50  0001 C CNN
+F 3 "" H 14250 2300 50  0001 C CNN
+	1    14250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FD73981
+P 14250 2800
+F 0 "#PWR02" H 14250 2550 50  0001 C CNN
+F 1 "GND" H 14255 2627 50  0000 C CNN
+F 2 "" H 14250 2800 50  0001 C CNN
+F 3 "" H 14250 2800 50  0001 C CNN
+	1    14250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FD73987
+P 15350 2300
+F 0 "#PWR03" H 15350 2050 50  0001 C CNN
+F 1 "GND" H 15355 2127 50  0000 C CNN
+F 2 "" H 15350 2300 50  0001 C CNN
+F 3 "" H 15350 2300 50  0001 C CNN
+	1    15350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FD7398D
+P 15350 2800
+F 0 "#PWR04" H 15350 2550 50  0001 C CNN
+F 1 "GND" H 15355 2627 50  0000 C CNN
+F 2 "" H 15350 2800 50  0001 C CNN
+F 3 "" H 15350 2800 50  0001 C CNN
+	1    15350 2800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
