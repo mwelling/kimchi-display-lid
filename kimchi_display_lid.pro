@@ -1,4 +1,4 @@
-update=Monday, March 02, 2020 at 08:08:31 PM
+update=Sat 19 Dec 2020 07:27:30 PM PST
 version=1
 last_client=kicad
 [general]
@@ -75,8 +75,8 @@ ViaDiameter7=0.7
 ViaDrill7=0.4
 ViaDiameter8=1
 ViaDrill8=0.4
-dPairWidth1=0.127
-dPairGap1=0.127
+dPairWidth1=0.2
+dPairGap1=0.2
 dPairViaGap1=0.25
 dPairWidth2=0.086106
 dPairGap2=0.10414
@@ -289,8 +289,8 @@ ViaDiameter=0.4572
 ViaDrill=0.254
 uViaDiameter=0.4572
 uViaDrill=0.254
-dPairWidth=0.127
-dPairGap=0.127
+dPairWidth=0.2
+dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CSI/DSI
