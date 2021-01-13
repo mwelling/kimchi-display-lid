@@ -11,8 +11,8 @@
 
   (page A)
   (title_block
-    (title kimchi_ulid)
-    (date 2019-12-15)
+    (title kimchi_display_lid)
+    (date 2021-01-12)
     (rev v0.1)
     (company GroupGets)
   )
@@ -2407,7 +2407,7 @@
   )
 
   (module Symbol:OSHW-Logo_5.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5E5D5F10)
-    (at 198.15 142.1 180)
+    (at 123.83 141.04 180)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
     (path /5EA00236)
