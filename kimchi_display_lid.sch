@@ -1426,7 +1426,7 @@ LEVEL TRANSLATOR
 Text Notes 2000 5850 0    40   ~ 0
 PWM2_OUT =>
 $Comp
-L Connector:USB_A J5
+L kimchi_display_lid-rescue:USB_A-Connector J5
 U 1 1 6009A0A2
 P 14550 6700
 F 0 "J5" H 14320 6689 50  0000 R CNN
