@@ -82,7 +82,7 @@ Connection ~ 1050 1450
 Wire Wire Line
 	1050 1450 1050 1550
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
+L kimchi_display_lid-rescue:Logo_Open_Hardware_Small-Graphic LOGO1
 U 1 1 5EA00236
 P 12000 10300
 F 0 "LOGO1" H 12000 10575 50  0001 C CNN
@@ -581,7 +581,7 @@ $EndComp
 Wire Wire Line
 	11250 2750 10800 2750
 $Comp
-L Mechanical:MountingHole_Pad H1
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H1
 U 1 1 5E6294CA
 P 14250 1000
 F 0 "H1" H 14350 1049 50  0000 L CNN
@@ -592,7 +592,7 @@ F 3 "~" H 14250 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H3
 U 1 1 5E62A27E
 P 14250 1500
 F 0 "H3" H 14350 1549 50  0000 L CNN
@@ -603,7 +603,7 @@ F 3 "~" H 14250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H2
 U 1 1 5E62A6D2
 P 15350 1000
 F 0 "H2" H 15450 1049 50  0000 L CNN
@@ -614,7 +614,7 @@ F 3 "~" H 15350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 5E62AAC7
 P 15350 1500
 F 0 "H4" H 15450 1549 50  0000 L CNN
@@ -691,7 +691,7 @@ F 3 "" H 1050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H5
 U 1 1 5FD7395F
 P 14250 2200
 F 0 "H5" H 14350 2249 50  0000 L CNN
@@ -702,7 +702,7 @@ F 3 "~" H 14250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H6
 U 1 1 5FD73966
 P 14250 2700
 F 0 "H6" H 14350 2749 50  0000 L CNN
@@ -713,7 +713,7 @@ F 3 "~" H 14250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H7
 U 1 1 5FD7396D
 P 15350 2200
 F 0 "H7" H 15450 2249 50  0000 L CNN
@@ -724,7 +724,7 @@ F 3 "~" H 15350 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L kimchi_display_lid-rescue:MountingHole_Pad-Mechanical H8
 U 1 1 5FD73974
 P 15350 2700
 F 0 "H8" H 15450 2749 50  0000 L CNN
@@ -791,7 +791,7 @@ F 4 "AP3019AKTR-G1" H 950 3350 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L1
+L kimchi_display_lid-rescue:L_Small-Device L1
 U 1 1 5FD73CA2
 P 7250 9500
 F 0 "L1" H 7209 9454 50  0000 R CNN
@@ -814,7 +814,7 @@ Connection ~ 7250 9350
 Wire Wire Line
 	7250 9350 6900 9350
 $Comp
-L Device:R R1
+L kimchi_display_lid-rescue:R-Device R1
 U 1 1 5FD77C84
 P 8550 9700
 F 0 "R1" H 8620 9746 50  0000 L CNN
@@ -847,7 +847,7 @@ Connection ~ 8550 9550
 Wire Wire Line
 	8350 9350 9250 9350
 $Comp
-L Device:C C1
+L kimchi_display_lid-rescue:C-Device C1
 U 1 1 5FD7E377
 P 6900 9550
 F 0 "C1" H 7015 9596 50  0000 L CNN
@@ -875,7 +875,7 @@ Wire Wire Line
 	6900 9400 6900 9350
 Connection ~ 6900 9350
 $Comp
-L Device:C C2
+L kimchi_display_lid-rescue:C-Device C2
 U 1 1 5FD85741
 P 9250 9650
 F 0 "C2" H 9365 9696 50  0000 L CNN
@@ -1189,7 +1189,7 @@ TOUCHSCREEN CONNECTOR
 Text Notes 9450 5300 0    100  ~ 0
 LCD CONNECTOR
 $Comp
-L Device:R R2
+L kimchi_display_lid-rescue:R-Device R2
 U 1 1 5FE79A2D
 P 7350 5950
 F 0 "R2" H 7420 5996 50  0000 L CNN
@@ -1201,7 +1201,7 @@ F 4 "RC0603JR-074K7L" H 7350 5950 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L kimchi_display_lid-rescue:R-Device R3
 U 1 1 5FE79BC9
 P 7650 5950
 F 0 "R3" H 7720 5996 50  0000 L CNN
@@ -1246,7 +1246,7 @@ Connection ~ 10100 9550
 Wire Wire Line
 	10300 9550 10100 9550
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO2
+L kimchi_display_lid-rescue:Logo_Open_Hardware_Small-Graphic LOGO2
 U 1 1 5FEC04EF
 P 12000 10300
 F 0 "LOGO2" H 12000 10575 50  0001 C CNN
@@ -1338,7 +1338,7 @@ $EndComp
 Wire Wire Line
 	2150 4350 2300 4350
 $Comp
-L Device:C C4
+L kimchi_display_lid-rescue:C-Device C4
 U 1 1 5FEAC292
 P 4150 4600
 F 0 "C4" V 4000 4550 50  0000 L CNN
@@ -1350,7 +1350,7 @@ F 4 "C0603C104M5RACAUTO" H 4150 4600 50  0001 C CNN "Part"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C3
+L kimchi_display_lid-rescue:C-Device C3
 U 1 1 5FEB58D2
 P 2300 4600
 F 0 "C3" V 2150 4550 50  0000 L CNN
@@ -1404,7 +1404,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 5600 3050 5600
 $Comp
-L Device:R R4
+L kimchi_display_lid-rescue:R-Device R4
 U 1 1 5FF3952B
 P 2750 4700
 F 0 "R4" H 2820 4746 50  0000 L CNN
@@ -1476,297 +1476,206 @@ Wire Wire Line
 Connection ~ 14550 7150
 Wire Wire Line
 	14550 7150 14550 7200
-$Comp
-L kimchi_ulid:LSM9DS1_LSM9DS1 U4
-U 1 1 5FE4AC65
-P 3450 8450
-F 0 "U4" H 3450 9420 50  0000 C CNN
-F 1 "LSM9DS1" H 3450 9329 50  0000 C CNN
-F 2 "PQFN24P43_350X300X102L35X23N" H 3450 8450 50  0001 L BNN
-F 3 "STMicroelectronics" H 3450 8450 50  0001 L BNN
-F 4 "TFLGA-24 STMicroelectronics" H 3450 8450 50  0001 L BNN "Field4"
-F 5 "iNEMO inertial module: 3D accelerometer, 3D gyroscope, 3D magnetometer" H 3450 8450 50  0001 L BNN "Field5"
-F 6 "None" H 3450 8450 50  0001 L BNN "Field6"
-F 7 "LSM9DS1" H 3450 8450 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 3450 8450 50  0001 L BNN "Field8"
-F 9 "LSM9DS1" H 3450 8450 50  0001 C CNN "Part"
-	1    3450 8450
-	1    0    0    -1  
-$EndComp
 Text Notes 13700 5300 0    100  ~ 0
 USB A
 $Comp
 L power:GND #PWR0128
 U 1 1 5FEC1D53
-P 4450 9250
-F 0 "#PWR0128" H 4450 9000 50  0001 C CNN
-F 1 "GND" H 4455 9077 50  0000 C CNN
-F 2 "" H 4450 9250 50  0001 C CNN
-F 3 "" H 4450 9250 50  0001 C CNN
-	1    4450 9250
+P 5250 9250
+F 0 "#PWR0128" H 5250 9000 50  0001 C CNN
+F 1 "GND" H 5255 9077 50  0000 C CNN
+F 2 "" H 5250 9250 50  0001 C CNN
+F 3 "" H 5250 9250 50  0001 C CNN
+	1    5250 9250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 9150 4450 9150
+	5150 9150 5250 9150
 Wire Wire Line
-	4450 9150 4450 9250
-Text GLabel 1450 8450 0    50   Input ~ 0
+	5250 9150 5250 9250
+Text GLabel 2050 8250 0    50   Input ~ 0
 I2C3_SDA
-Text GLabel 1450 8250 0    50   Input ~ 0
+Text GLabel 2050 8150 0    50   Input ~ 0
 I2C3_SCL
 Wire Wire Line
-	1450 8250 2550 8250
+	2050 8150 3150 8150
 Wire Wire Line
-	1450 8450 2550 8450
+	2050 8250 3150 8250
 $Comp
 L kimchi_ulid:VDD_3V3 #PWR0129
 U 1 1 5FEF2473
-P 5500 7750
-F 0 "#PWR0129" H 5500 7600 50  0001 C CNN
-F 1 "VDD_3V3" V 5400 7750 50  0000 C CNN
-F 2 "" H 5500 7750 50  0001 C CNN
-F 3 "" H 5500 7750 50  0001 C CNN
-	1    5500 7750
+P 6300 7750
+F 0 "#PWR0129" H 6300 7600 50  0001 C CNN
+F 1 "VDD_3V3" V 6200 7750 50  0000 C CNN
+F 2 "" H 6300 7750 50  0001 C CNN
+F 3 "" H 6300 7750 50  0001 C CNN
+	1    6300 7750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4350 7750 4450 7750
+	5150 7750 5250 7750
 Wire Wire Line
-	4350 7850 4450 7850
+	5150 7850 5250 7850
 Wire Wire Line
-	4450 7850 4450 7750
-Connection ~ 4450 7750
+	5250 7850 5250 7750
+Connection ~ 5250 7750
 Wire Wire Line
-	4450 7750 4850 7750
+	5250 7750 5650 7750
 $Comp
-L Device:R R7
+L kimchi_display_lid-rescue:R-Device R7
 U 1 1 5FF08D64
-P 2150 7350
-F 0 "R7" V 2250 7300 50  0000 L CNN
-F 1 "4.7K" V 2150 7250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 7350 50  0001 C CNN
-F 3 "~" H 2150 7350 50  0001 C CNN
-F 4 "RC0603JR-074K7L" H 2150 7350 50  0001 C CNN "Part"
-	1    2150 7350
+P 2750 7250
+F 0 "R7" V 2850 7200 50  0000 L CNN
+F 1 "4.7K" V 2750 7150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 7250 50  0001 C CNN
+F 3 "~" H 2750 7250 50  0001 C CNN
+F 4 "RC0603JR-074K7L" H 2750 7250 50  0001 C CNN "Part"
+	1    2750 7250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R8
+L kimchi_display_lid-rescue:R-Device R8
 U 1 1 5FF129C0
-P 2350 7350
-F 0 "R8" V 2450 7300 50  0000 L CNN
-F 1 "4.7K" V 2350 7250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 7350 50  0001 C CNN
-F 3 "~" H 2350 7350 50  0001 C CNN
-F 4 "RC0603JR-074K7L" H 2350 7350 50  0001 C CNN "Part"
-	1    2350 7350
+P 2950 7250
+F 0 "R8" V 3050 7200 50  0000 L CNN
+F 1 "4.7K" V 2950 7150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 7250 50  0001 C CNN
+F 3 "~" H 2950 7250 50  0001 C CNN
+F 4 "RC0603JR-074K7L" H 2950 7250 50  0001 C CNN "Part"
+	1    2950 7250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R5
+L kimchi_display_lid-rescue:R-Device R5
 U 1 1 5FF18252
-P 1750 7350
-F 0 "R5" V 1650 7300 50  0000 L CNN
-F 1 "4.7K" V 1750 7250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 7350 50  0001 C CNN
-F 3 "~" H 1750 7350 50  0001 C CNN
-F 4 "RC0603JR-074K7L" H 1750 7350 50  0001 C CNN "Part"
-	1    1750 7350
+P 2350 7250
+F 0 "R5" V 2250 7200 50  0000 L CNN
+F 1 "4.7K" V 2350 7150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 7250 50  0001 C CNN
+F 3 "~" H 2350 7250 50  0001 C CNN
+F 4 "RC0603JR-074K7L" H 2350 7250 50  0001 C CNN "Part"
+	1    2350 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L kimchi_display_lid-rescue:R-Device R6
 U 1 1 5FF215FE
-P 1950 7350
-F 0 "R6" V 1850 7300 50  0000 L CNN
-F 1 "4.7K" V 1950 7250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 7350 50  0001 C CNN
-F 3 "~" H 1950 7350 50  0001 C CNN
-F 4 "RC0603JR-074K7L" H 1950 7350 50  0001 C CNN "Part"
-	1    1950 7350
+P 2550 7250
+F 0 "R6" V 2450 7200 50  0000 L CNN
+F 1 "4.7K" V 2550 7150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 7250 50  0001 C CNN
+F 3 "~" H 2550 7250 50  0001 C CNN
+F 4 "RC0603JR-074K7L" H 2550 7250 50  0001 C CNN "Part"
+	1    2550 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 7850 2350 7850
+	3150 7750 2950 7750
 Wire Wire Line
-	2350 7850 2350 7500
-Wire Wire Line
-	2550 7950 2150 7950
-Wire Wire Line
-	2150 7950 2150 7500
-Wire Wire Line
-	2550 8350 1950 8350
-Wire Wire Line
-	1950 8350 1950 7500
-Wire Wire Line
-	2550 8550 1750 8550
-Wire Wire Line
-	1750 8550 1750 7500
+	2950 7750 2950 7400
 $Comp
 L kimchi_ulid:VDD_3V3 #PWR0130
 U 1 1 5FFC8577
-P 1750 7000
-F 0 "#PWR0130" H 1750 6850 50  0001 C CNN
-F 1 "VDD_3V3" V 1750 7300 50  0000 C CNN
-F 2 "" H 1750 7000 50  0001 C CNN
-F 3 "" H 1750 7000 50  0001 C CNN
-	1    1750 7000
+P 2350 6900
+F 0 "#PWR0130" H 2350 6750 50  0001 C CNN
+F 1 "VDD_3V3" V 2350 7200 50  0000 C CNN
+F 2 "" H 2350 6900 50  0001 C CNN
+F 3 "" H 2350 6900 50  0001 C CNN
+	1    2350 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 7000 1750 7100
+	2350 6900 2350 7000
 Wire Wire Line
-	1750 7100 1950 7100
+	2350 7000 2550 7000
 Wire Wire Line
-	1950 7100 1950 7200
-Connection ~ 1750 7100
+	2550 7000 2550 7100
+Connection ~ 2350 7000
 Wire Wire Line
-	1750 7100 1750 7200
+	2350 7000 2350 7100
 Wire Wire Line
-	1950 7100 2150 7100
+	2550 7000 2750 7000
 Wire Wire Line
-	2150 7100 2150 7200
-Connection ~ 1950 7100
+	2750 7000 2750 7100
+Connection ~ 2550 7000
 Wire Wire Line
-	2150 7100 2350 7100
+	2750 7000 2950 7000
 Wire Wire Line
-	2350 7100 2350 7200
-Connection ~ 2150 7100
+	2950 7000 2950 7100
+Connection ~ 2750 7000
 $Comp
-L Device:C C5
-U 1 1 5FFF4965
-P 1900 9400
-F 0 "C5" H 2015 9446 50  0000 L CNN
-F 1 "10uF" H 2015 9355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 9250 50  0001 C CNN
-F 3 "~" H 1900 9400 50  0001 C CNN
-F 4 "CL10A106MP8NNNC" H 1900 9400 50  0001 C CNN "Part"
-	1    1900 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5FFFBE87
-P 2300 9400
-F 0 "C6" H 2415 9446 50  0000 L CNN
-F 1 ".1uF" H 2415 9355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2338 9250 50  0001 C CNN
-F 3 "~" H 2300 9400 50  0001 C CNN
-F 4 "C0603C104M5RACAUTO" H 2300 9400 50  0001 C CNN "Part"
-	1    2300 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0131
-U 1 1 5FFFD235
-P 2300 9650
-F 0 "#PWR0131" H 2300 9400 50  0001 C CNN
-F 1 "GND" H 2305 9477 50  0000 C CNN
-F 2 "" H 2300 9650 50  0001 C CNN
-F 3 "" H 2300 9650 50  0001 C CNN
-	1    2300 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0132
-U 1 1 5FFFEBA4
-P 1900 9650
-F 0 "#PWR0132" H 1900 9400 50  0001 C CNN
-F 1 "GND" H 1905 9477 50  0000 C CNN
-F 2 "" H 1900 9650 50  0001 C CNN
-F 3 "" H 1900 9650 50  0001 C CNN
-	1    1900 9650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 9550 1900 9650
-Wire Wire Line
-	1900 9050 2550 9050
-Wire Wire Line
-	1900 9050 1900 9250
-Wire Wire Line
-	2550 9150 2300 9150
-Wire Wire Line
-	2300 9150 2300 9250
-Wire Wire Line
-	2300 9550 2300 9650
-$Comp
-L Device:C C8
+L kimchi_display_lid-rescue:C-Device C8
 U 1 1 6002CB44
-P 5250 8000
-F 0 "C8" H 5365 8046 50  0000 L CNN
-F 1 "10uF" H 5365 7955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 7850 50  0001 C CNN
-F 3 "~" H 5250 8000 50  0001 C CNN
-F 4 "CL10A106MP8NNNC" H 5250 8000 50  0001 C CNN "Part"
-	1    5250 8000
+P 6050 8000
+F 0 "C8" H 6165 8046 50  0000 L CNN
+F 1 "10uF" H 6165 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 7850 50  0001 C CNN
+F 3 "~" H 6050 8000 50  0001 C CNN
+F 4 "CL10A106MP8NNNC" H 6050 8000 50  0001 C CNN "Part"
+	1    6050 8000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L kimchi_display_lid-rescue:C-Device C7
 U 1 1 6002CB4A
-P 4850 8000
-F 0 "C7" H 4965 8046 50  0000 L CNN
-F 1 ".1uF" H 4965 7955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 7850 50  0001 C CNN
-F 3 "~" H 4850 8000 50  0001 C CNN
-F 4 "C0603C104M5RACAUTO" H 4850 8000 50  0001 C CNN "Part"
-	1    4850 8000
+P 5650 8000
+F 0 "C7" H 5765 8046 50  0000 L CNN
+F 1 ".1uF" H 5765 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 7850 50  0001 C CNN
+F 3 "~" H 5650 8000 50  0001 C CNN
+F 4 "C0603C104M5RACAUTO" H 5650 8000 50  0001 C CNN "Part"
+	1    5650 8000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0133
 U 1 1 6002CB50
-P 4850 8250
-F 0 "#PWR0133" H 4850 8000 50  0001 C CNN
-F 1 "GND" H 4855 8077 50  0000 C CNN
-F 2 "" H 4850 8250 50  0001 C CNN
-F 3 "" H 4850 8250 50  0001 C CNN
-	1    4850 8250
+P 5650 8250
+F 0 "#PWR0133" H 5650 8000 50  0001 C CNN
+F 1 "GND" H 5655 8077 50  0000 C CNN
+F 2 "" H 5650 8250 50  0001 C CNN
+F 3 "" H 5650 8250 50  0001 C CNN
+	1    5650 8250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0134
 U 1 1 6002CB56
-P 5250 8250
-F 0 "#PWR0134" H 5250 8000 50  0001 C CNN
-F 1 "GND" H 5255 8077 50  0000 C CNN
-F 2 "" H 5250 8250 50  0001 C CNN
-F 3 "" H 5250 8250 50  0001 C CNN
-	1    5250 8250
+P 6050 8250
+F 0 "#PWR0134" H 6050 8000 50  0001 C CNN
+F 1 "GND" H 6055 8077 50  0000 C CNN
+F 2 "" H 6050 8250 50  0001 C CNN
+F 3 "" H 6050 8250 50  0001 C CNN
+	1    6050 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 8150 5250 8250
+	6050 8150 6050 8250
 Wire Wire Line
-	4850 8150 4850 8250
+	5650 8150 5650 8250
 Wire Wire Line
-	5250 7850 5250 7750
-Connection ~ 5250 7750
+	6050 7850 6050 7750
+Connection ~ 6050 7750
 Wire Wire Line
-	5250 7750 5500 7750
+	6050 7750 6300 7750
 Wire Wire Line
-	4850 7850 4850 7750
-Connection ~ 4850 7750
+	5650 7850 5650 7750
+Connection ~ 5650 7750
 Wire Wire Line
-	4850 7750 5250 7750
+	5650 7750 6050 7750
 Wire Wire Line
-	4350 9050 4450 9050
+	5150 9050 5250 9050
 Wire Wire Line
-	4450 9050 4450 9150
-Connection ~ 4450 9150
+	5250 9050 5250 9150
+Connection ~ 5250 9150
 Wire Wire Line
-	4350 8250 4400 8250
+	5150 8250 5200 8250
 Wire Wire Line
-	4350 8350 4400 8350
-Wire Wire Line
-	4350 8650 4400 8650
-Text Label 4400 8250 0    50   ~ 0
+	5150 8650 5200 8650
+Text Label 5200 8250 0    50   ~ 0
 INT_M
-Text Label 4400 8350 0    50   ~ 0
+Text Label 5200 8650 0    50   ~ 0
 INT1A_G
-Text Label 4400 8650 0    50   ~ 0
-DRDY_M
 Text Label 4000 5700 0    50   ~ 0
 INT_M
 Text Label 4000 5900 0    50   ~ 0
@@ -1785,8 +1694,8 @@ Wire Wire Line
 	2950 5800 3050 5800
 Wire Wire Line
 	2950 5900 3050 5900
-Text Notes 3150 7300 0    100  ~ 0
-9DOF IMU
+Text Notes 3900 7350 0    100  ~ 0
+6DOF IMU
 Text GLabel 2950 5700 0    50   Input ~ 0
 GPIO1[14]
 Text GLabel 2950 5900 0    50   Input ~ 0
@@ -1903,7 +1812,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 2150 8000 2150
 $Comp
-L Device:C C9
+L kimchi_display_lid-rescue:C-Device C9
 U 1 1 5FFF1A63
 P 13800 7050
 F 0 "C9" V 13650 7000 50  0000 L CNN
@@ -1931,7 +1840,7 @@ $EndComp
 Wire Wire Line
 	13800 7200 13800 7300
 $Comp
-L Device:C C10
+L kimchi_display_lid-rescue:C-Device C10
 U 1 1 6004ECDA
 P 12250 6100
 F 0 "C10" V 12100 6050 50  0000 L CNN
@@ -2144,4 +2053,32 @@ Wire Wire Line
 	8850 8950 10300 8950
 Wire Wire Line
 	8850 9050 10300 9050
+$Comp
+L kimchi_ulid:LSM6DSRTR U4
+U 1 1 600A029E
+P 3450 7650
+F 0 "U4" H 3500 7700 50  0000 C CNN
+F 1 "LSM6DSRTR" H 4650 6000 50  0000 C CNN
+F 2 "kimchi_ulid:LSM6DSRTR" H 3650 9850 50  0001 L BNN
+F 3 "https://www.st.com/resource/en/datasheet/lsm6dsr.pdf" H 3650 9850 50  0001 L BNN
+F 4 "TFLGA-24 STMicroelectronics" H 3650 9850 50  0001 L BNN "Field4"
+F 5 "Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I²C, SPI Output" H 3650 9850 50  0001 L BNN "Field5"
+F 6 "None" H 3650 9850 50  0001 L BNN "Field6"
+F 7 "LSM6DSRTR" H 3650 9850 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 3650 9850 50  0001 L BNN "Field8"
+	1    3450 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 8350 2750 8350
+Wire Wire Line
+	2750 8350 2750 7400
+Wire Wire Line
+	3150 8750 2550 8750
+Wire Wire Line
+	2550 8750 2550 7400
+Wire Wire Line
+	3150 8850 2350 8850
+Wire Wire Line
+	2350 8850 2350 7400
 $EndSCHEMATC
