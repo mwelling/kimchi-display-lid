@@ -6,4 +6,8 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP LSM6DSRTR
+F https://www.st.com/resource/en/datasheet/lsm6dsr.pdf
+$ENDCMP
+#
 #End Doc Library
