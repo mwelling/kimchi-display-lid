@@ -2081,4 +2081,26 @@ Wire Wire Line
 	3150 8850 2350 8850
 Wire Wire Line
 	2350 8850 2350 7400
+$Comp
+L kimchi_ulid:GG_LOGO L?
+U 1 1 601047E2
+P 13350 3700
+F 0 "L?" H 13400 3745 50  0000 L CNN
+F 1 "GG_LOGO" H 13400 3654 50  0000 L CNN
+F 2 "kimchi_ulid:groupgets_logo" H 13350 3700 50  0001 C CNN
+F 3 "" H 13350 3700 50  0001 C CNN
+	1    13350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:OSHPARK_LOGO L?
+U 1 1 60105FC2
+P 13400 3900
+F 0 "L?" H 13450 3945 50  0000 L CNN
+F 1 "OSHPARK_LOGO" H 13450 3854 50  0000 L CNN
+F 2 "kimchi_ulid:oshpark_logo" H 13400 3900 50  0001 C CNN
+F 3 "" H 13400 3900 50  0001 C CNN
+	1    13400 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
