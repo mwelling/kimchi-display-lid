@@ -936,17 +936,6 @@ F 4 "FH19C-40S-0.5SH(10)" H 10500 7650 50  0001 C CNN "Part"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0118
-U 1 1 5FD94610
-P 8250 6050
-F 0 "#PWR0118" H 8250 5800 50  0001 C CNN
-F 1 "GND" H 8255 5877 50  0000 C CNN
-F 2 "" H 8250 6050 50  0001 C CNN
-F 3 "" H 8250 6050 50  0001 C CNN
-	1    8250 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0119
 U 1 1 5FD960F0
 P 10600 5450
@@ -1130,20 +1119,6 @@ Wire Wire Line
 	7950 6550 7100 6550
 Text Label 7100 6550 0    50   ~ 0
 TS_INT
-$Comp
-L Connector_Generic_MountingPin:Conn_01x06_MountingPin J3
-U 1 1 5FE2A772
-P 8150 6550
-F 0 "J3" H 8237 6466 50  0000 L CNN
-F 1 "H19C-6S-0.5SH" H 8100 6900 50  0000 L CNN
-F 2 "kimchi_ulid:HRS_FH19C-6S-0.5SH_1x06-1MP_P0.50mm" H 8150 6550 50  0001 C CNN
-F 3 "~" H 8150 6550 50  0001 C CNN
-F 4 "H19C-6S-0.5SH" H 8150 6550 50  0001 C CNN "Part"
-	1    8150 6550
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8150 6050 8250 6050
 Text GLabel 7100 6250 0    50   Input ~ 0
 I2C3_SDA
 Text GLabel 7100 6350 0    50   Input ~ 0
@@ -1168,18 +1143,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0124
 U 1 1 5FE45705
-P 7900 7050
-F 0 "#PWR0124" H 7900 6800 50  0001 C CNN
-F 1 "GND" H 7905 6877 50  0000 C CNN
-F 2 "" H 7900 7050 50  0001 C CNN
-F 3 "" H 7900 7050 50  0001 C CNN
-	1    7900 7050
+P 8550 6750
+F 0 "#PWR0124" H 8550 6500 50  0001 C CNN
+F 1 "GND" H 8555 6577 50  0000 C CNN
+F 2 "" H 8550 6750 50  0001 C CNN
+F 3 "" H 8550 6750 50  0001 C CNN
+	1    8550 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 6750 7900 6750
-Wire Wire Line
-	7900 6750 7900 7050
 Wire Wire Line
 	9250 9350 10300 9350
 Wire Wire Line
@@ -2082,10 +2053,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 8850 2350 7400
 $Comp
-L kimchi_ulid:GG_LOGO L?
+L kimchi_ulid:GG_LOGO L7
 U 1 1 601047E2
 P 13350 3700
-F 0 "L?" H 13400 3745 50  0000 L CNN
+F 0 "L7" H 13400 3745 50  0000 L CNN
 F 1 "GG_LOGO" H 13400 3654 50  0000 L CNN
 F 2 "kimchi_ulid:groupgets_logo" H 13350 3700 50  0001 C CNN
 F 3 "" H 13350 3700 50  0001 C CNN
@@ -2093,14 +2064,60 @@ F 3 "" H 13350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kimchi_ulid:OSHPARK_LOGO L?
+L kimchi_ulid:OSHPARK_LOGO L8
 U 1 1 60105FC2
 P 13400 3900
-F 0 "L?" H 13450 3945 50  0000 L CNN
+F 0 "L8" H 13450 3945 50  0000 L CNN
 F 1 "OSHPARK_LOGO" H 13450 3854 50  0000 L CNN
 F 2 "kimchi_ulid:oshpark_logo" H 13400 3900 50  0001 C CNN
 F 3 "" H 13400 3900 50  0001 C CNN
 	1    13400 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L kimchi_display_lid-rescue:Logo_Open_Hardware_Small-Graphic LOGO3
+U 1 1 601773B5
+P 12000 10300
+F 0 "LOGO3" H 12000 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12000 10075 50  0001 C CNN
+F 2 "kimchi_ulid:hoverboard-3d-model" H 12000 10300 50  0001 C CNN
+F 3 "~" H 12000 10300 50  0001 C CNN
+	1    12000 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 601AE6C8
+P 8150 6450
+F 0 "J3" H 8200 6750 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8200 6776 50  0001 C CNN
+F 2 "kimchi_ulid:HIROSE_DF23C-10DS-0.5V(51)" H 8150 6450 50  0001 C CNN
+F 3 "~" H 8150 6450 50  0001 C CNN
+	1    8150 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 6250 8550 6250
+Wire Wire Line
+	8550 6250 8550 6350
+Wire Wire Line
+	8450 6650 8550 6650
+Connection ~ 8550 6650
+Wire Wire Line
+	8550 6650 8550 6750
+Wire Wire Line
+	8450 6550 8550 6550
+Connection ~ 8550 6550
+Wire Wire Line
+	8550 6550 8550 6650
+Wire Wire Line
+	8450 6450 8550 6450
+Connection ~ 8550 6450
+Wire Wire Line
+	8550 6450 8550 6550
+Wire Wire Line
+	8450 6350 8550 6350
+Connection ~ 8550 6350
+Wire Wire Line
+	8550 6350 8550 6450
 $EndSCHEMATC
