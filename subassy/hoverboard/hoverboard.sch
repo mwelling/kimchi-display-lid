@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic_MountingPin:Conn_01x06_MountingPin J1
 U 1 1 60177A9F
-P 4800 3550
-F 0 "J1" H 4750 3900 50  0000 L CNN
-F 1 "Conn_01x06_MountingPin" H 4888 3373 50  0001 L CNN
-F 2 "kimchi:HRS_FH19C-6S-0.5SH_1x06-1MP_P0.50mm" H 4800 3550 50  0001 C CNN
-F 3 "~" H 4800 3550 50  0001 C CNN
-	1    4800 3550
-	-1   0    0    -1  
+P 4800 3650
+F 0 "J1" H 4750 4000 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 4888 3473 50  0001 L CNN
+F 2 "kimchi:HRS_FH19C-6S-0.5SH_1x06-1MP_P0.50mm" H 4800 3650 50  0001 C CNN
+F 3 "~" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
@@ -38,13 +38,13 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6017B006
-P 4800 4150
-F 0 "#PWR01" H 4800 3900 50  0001 C CNN
-F 1 "GND" H 4805 3977 50  0000 C CNN
-F 2 "" H 4800 4150 50  0001 C CNN
-F 3 "" H 4800 4150 50  0001 C CNN
-	1    4800 4150
-	1    0    0    -1  
+P 4800 3050
+F 0 "#PWR01" H 4800 2800 50  0001 C CNN
+F 1 "GND" H 4805 2877 50  0000 C CNN
+F 2 "" H 4800 3050 50  0001 C CNN
+F 3 "" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -87,9 +87,21 @@ Wire Wire Line
 Wire Wire Line
 	5000 3650 5350 3650
 Wire Wire Line
-	4800 4050 4800 4150
+	4800 3150 4800 3050
 Wire Wire Line
 	5000 3850 5850 3850
 Wire Wire Line
 	5850 3850 5850 3750
+Text Label 5100 3350 0    50   ~ 0
+SCL
+Text Label 5100 3450 0    50   ~ 0
+SDA
+Text Label 5100 3550 0    50   ~ 0
+RST
+Text Label 5100 3650 0    50   ~ 0
+INT
+Text Label 5100 3750 0    50   ~ 0
+VDD
+Text Label 5100 3850 0    50   ~ 0
+GND
 $EndSCHEMATC
